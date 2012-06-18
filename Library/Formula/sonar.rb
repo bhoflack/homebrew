@@ -2,8 +2,8 @@ require 'formula'
 
 class Sonar < Formula
   homepage 'http://www.sonarsource.org'
-  url 'http://dist.sonar.codehaus.org/sonar-3.0.zip'
-  md5 'bcf8b56d3b12a5e212cb4c7fa778180b'
+  url 'http://dist.sonar.codehaus.org/sonar-3.1.zip'
+  md5 '9c84e876963ae7594a96ca24442e648a'
 
   def install
     # Delete native bin directories for other systems
